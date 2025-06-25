@@ -6,6 +6,7 @@ import "./App.css";
 import AboutMe from "./components/about";
 import { BackgroundBeams } from "./components/ui/background-beams";
 import Intro from "./components/intro";
+import Experience from "./components/experience";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,6 +15,7 @@ function App() {
     <>
       <Intro />
       <AboutMe />
+      <Experience />
       <BackgroundBeams />
     </>
   );
