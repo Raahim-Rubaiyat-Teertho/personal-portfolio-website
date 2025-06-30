@@ -15,7 +15,10 @@ export default function Intro() {
     },
   ];
   return (
-    <div className="h-screen w-full flex flex-col justify-center items-center">
+    <div
+      className="h-screen md:h-screen w-full flex flex-col justify-center items-center"
+      id="intro"
+    >
       {/* <motion.span className="text-6xl font-space pb-10">
         {displayText}
       </motion.span> */}
