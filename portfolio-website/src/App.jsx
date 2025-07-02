@@ -8,16 +8,19 @@ import { BackgroundBeams } from "./components/ui/background-beams";
 import Intro from "./components/intro";
 import Experience from "./components/experience";
 import Navbar from "./components/ui/navbar";
+import Projects from "./components/projects";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
+      <title>Teertho | Portfolio</title>
       <Navbar />
       <Intro />
       <AboutMe />
       <Experience />
+      <Projects />
       <BackgroundBeams />
     </>
   );
