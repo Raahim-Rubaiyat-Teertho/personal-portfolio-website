@@ -2,7 +2,10 @@ import { motion, useMotionValue, useTransform, animate } from "framer-motion";
 
 export default function Experience() {
   return (
-    <div className="h-screen w-full flex flex-col items-center" id="experience">
+    <div
+      className="h-auto mb-30 md:mb-40 w-full flex flex-col items-center"
+      id="experience"
+    >
       <motion.p
         className=" text-center font-space sm:px-52 md:px-72 px-7 text-sm"
         initial={{ opacity: 0, y: -50 }} // Start above and invisible
